@@ -1,0 +1,756 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jankeesh Kaur | Senior Solutions Consultant, Genesys Cloud</title>
+<meta name="description" content="Jankeesh Kaur is a Senior Solutions Consultant with 19+ years designing, building and optimising Genesys Cloud CX platform solutions.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jankeesh Kaur | Senior Solutions Consultant, Genesys Cloud">
+<meta property="og:description" content="19+ years architecting Genesys Cloud CX platform solutions that turn business requirements into reliable, scalable customer journeys.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%232E5BFF'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='14' font-weight='bold' fill='%23fff' text-anchor='middle'%3EJK%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   JK — one-page portfolio · LIGHT AESTHETIC
+   soft ivory canvas · pastel aurora mesh · bento · kinetic type
+   marquee · glass 2.0 · spotlight rows · scroll reveals
+   ============================================================ */
+:root{
+  --bg:#FBFAF7;
+  --bg-2:#F3F1EC;
+  --surface:#FFFFFF;
+  --surface-2:#F7F6F2;
+  --stroke:rgba(24,20,40,.10);
+  --stroke-2:rgba(24,20,40,.20);
+  --text:#171526;
+  --text-2:#5C5872;
+  --text-3:#8B87A0;
+  --violet:#7A63F0;
+  --blue:#3B82F6;
+  --cyan:#12B5C9;
+  --lime:#7FA83C;
+  --coral:#F2705A;
+  --lilac:#9B7BF0;
+  --serif:'Instrument Serif',Georgia,'Times New Roman',serif;
+  --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+  --wrap:1220px;
+  --pad:78px;
+  --r:20px;
+  --r-lg:28px;
+  --sh:0 24px 60px -34px rgba(30,22,70,.34);
+  --sh-soft:0 12px 32px -22px rgba(30,22,70,.26);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+@supports (animation-timeline: view()){html:focus-within{scroll-behavior:smooth}}
+body{
+  margin:0;background:var(--bg);color:var(--text);
+  font-family:var(--sans);font-size:16px;line-height:1.68;font-weight:400;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+::selection{background:rgba(122,99,240,.22);color:var(--text)}
+img,svg{max-width:100%}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{font-weight:600;line-height:1.1;letter-spacing:-.035em;margin:0}
+p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+:focus-visible{outline:2px solid var(--violet);outline-offset:3px;border-radius:8px}
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 22px}
+.skip{position:absolute;left:16px;top:-64px;z-index:300;background:var(--text);color:#fff;padding:11px 16px;border-radius:10px;font-weight:600;transition:top .2s}
+.skip:focus{top:16px}
+.grain{
+  position:fixed;inset:0;z-index:60;pointer-events:none;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E");
+}
+
+/* ============ motion ============ */
+.rv{opacity:0;transform:translateY(20px) scale(.99);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+@keyframes rise{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+.hero-anim>*{animation:rise .95s cubic-bezier(.2,.7,.2,1) both}
+@keyframes drift{0%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(2%,-3%,0) scale(1.08)}100%{transform:translate3d(0,0,0) scale(1)}}
+@keyframes scrollx{to{transform:translateX(-50%)}}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.72)}}
+
+/* ============ pastel aurora ============ */
+.aurora{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0}
+.blob{position:absolute;border-radius:50%;filter:blur(80px);opacity:.55;animation:drift 24s ease-in-out infinite}
+.b1{width:520px;height:520px;max-width:520px;max-height:520px;background:#C9BCFF;top:-16%;right:-10%}
+.b2{width:440px;height:440px;max-width:440px;max-height:440px;background:#A9E6EF;opacity:.5;bottom:-20%;left:-12%;animation-delay:-7s}
+.b3{width:330px;height:330px;max-width:330px;max-height:330px;background:#FFD3C6;opacity:.45;top:32%;right:20%;animation-delay:-13s}
+.b4{width:360px;height:360px;max-width:360px;max-height:360px;background:#CFE0FF;opacity:.5;top:6%;left:4%;animation-delay:-4s}
+.meshlines{
+  position:absolute;inset:0;opacity:.6;
+  background-image:linear-gradient(rgba(23,21,38,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(23,21,38,.05) 1px,transparent 1px);
+  background-size:92px 92px;
+  mask-image:radial-gradient(70% 70% at 50% 40%,#000,transparent 82%);
+  -webkit-mask-image:radial-gradient(70% 70% at 50% 40%,#000,transparent 82%);
+}
+
+/* ============ nav ============ */
+.nav{position:sticky;top:0;z-index:120;background:rgba(251,250,247,.72);-webkit-backdrop-filter:blur(18px) saturate(150%);backdrop-filter:blur(18px) saturate(150%);border-bottom:1px solid transparent;transition:border-color .3s,background .3s,box-shadow .3s}
+.nav.solid{background:rgba(251,250,247,.93);border-bottom-color:var(--stroke);box-shadow:0 10px 30px -26px rgba(30,22,70,.5)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px}
+.brand{display:flex;align-items:center;gap:11px;font-weight:600;letter-spacing:-.02em;font-size:.98rem}
+.mark{
+  width:34px;height:34px;border-radius:11px;display:grid;place-items:center;flex:0 0 auto;font-size:.76rem;font-weight:800;
+  background:linear-gradient(135deg,#C9BCFF,#A9E6EF);color:#2A2350;letter-spacing:.02em;
+}
+.nav-links{display:none;align-items:center;gap:2px}
+.nav-links a.nl{font-size:.86rem;font-weight:500;color:var(--text-2);padding:9px 12px;border-radius:999px;transition:.22s}
+.nav-links a.nl:hover{color:var(--text);background:rgba(122,99,240,.08)}
+.nav-links a.nl.active{color:var(--text);background:rgba(122,99,240,.13)}
+.nav-cta{display:none}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:46px;padding:13px 22px;
+  border-radius:999px;font-size:.875rem;font-weight:600;border:1px solid transparent;cursor:pointer;
+  transition:transform .2s,box-shadow .2s,background .2s,color .2s,border-color .2s;
+}
+.btn-glow{background:linear-gradient(120deg,#8B76F5,#6D9BFF 55%,#5FD3E4);color:#fff;box-shadow:0 14px 30px -14px rgba(122,99,240,.6)}
+.btn-glow:hover{transform:translateY(-2px);box-shadow:0 20px 38px -14px rgba(95,211,228,.7)}
+.btn-glass{background:rgba(255,255,255,.78);border-color:var(--stroke-2);color:var(--text);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);box-shadow:var(--sh-soft)}
+.btn-glass:hover{background:#fff;transform:translateY(-2px)}
+.burger{display:grid;place-items:center;width:46px;height:46px;background:#fff;color:var(--text);border:1px solid var(--stroke);border-radius:14px;cursor:pointer}
+.burger svg{width:20px;height:20px}
+.mobile-menu{display:none;padding:10px 0 20px;border-top:1px solid var(--stroke);background:rgba(251,250,247,.97)}
+.mobile-menu.open{display:block}
+.mobile-menu a{display:block;padding:13px 14px;border-radius:12px;color:var(--text-2);font-weight:500}
+.mobile-menu a:hover{background:rgba(122,99,240,.08);color:var(--text)}
+.mobile-menu .btn{margin-top:12px;width:100%}
+
+/* ============ shells ============ */
+section{position:relative;padding:var(--pad) 0}
+.sec{position:relative;z-index:2}
+#about{padding-bottom:24px}
+#work{padding-bottom:24px}
+#skills{padding-bottom:24px}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:9px;font-size:.7rem;font-weight:600;letter-spacing:.19em;text-transform:uppercase;
+  color:var(--text-2);border:1px solid var(--stroke);background:rgba(255,255,255,.82);border-radius:999px;padding:7px 14px;box-shadow:var(--sh-soft);
+}
+.eyebrow::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--violet);animation:pulse 2.6s ease-in-out infinite;flex:0 0 auto}
+.sec-head{max-width:880px;margin-bottom:40px}
+h2{font-size:clamp(2rem,5.2vw,3.5rem);margin-top:20px}
+h2 .serif{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:-.01em;background:linear-gradient(100deg,#8B76F5,#5FD3E4);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.lede{color:var(--text-2);font-size:clamp(1rem,1.15vw,1.1rem);margin-top:18px;max-width:64ch}
+.lede.oneline{max-width:none;font-size:clamp(.94rem,1vw,1rem)}
+#about .sec-head{max-width:none}
+#work .sec-head{max-width:none}
+#skills .sec-head{max-width:none}
+@media (min-width:1240px){.lede.oneline{white-space:nowrap}}
+@media (min-width:1280px){#contactTitle{white-space:nowrap}}
+
+/* ============ hero ============ */
+.hero{padding-top:64px;padding-bottom:56px;overflow:hidden}
+.hero-in{position:relative;z-index:2}
+.hero h1{font-size:clamp(2.4rem,7.6vw,5.2rem);font-weight:700;letter-spacing:-.05em;line-height:1.03;margin:24px 0 0;max-width:17ch}
+.hero h1 .serif{font-family:var(--serif);font-weight:400;font-style:italic;letter-spacing:-.015em}
+.hero h1 .grad{background:linear-gradient(100deg,#8B76F5,#6D9BFF 45%,#4FC7DB);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero .sub{color:var(--text-2);font-size:clamp(1.02rem,1.5vw,1.18rem);margin-top:26px;max-width:52ch}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:36px}
+.meta span{font-size:.8rem;color:var(--text-2);border:1px solid var(--stroke);border-radius:999px;padding:7px 14px;background:rgba(255,255,255,.82)}
+
+/* ---- glass live card ---- */
+.livecard{
+  margin-top:34px;background:linear-gradient(160deg,rgba(255,255,255,.94),rgba(255,255,255,.7));
+  border:1px solid var(--stroke);border-radius:var(--r-lg);padding:24px;
+  -webkit-backdrop-filter:blur(20px) saturate(150%);backdrop-filter:blur(20px) saturate(150%);box-shadow:var(--sh);
+  position:relative;overflow:hidden;
+}
+.livecard::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 80% at 100% 0%,rgba(95,211,228,.18),transparent 62%)}
+.lc-head{display:flex;align-items:center;justify-content:space-between;gap:12px;position:relative}
+.lc-head h3{font-size:.9rem;letter-spacing:.02em}
+.dotlive{display:inline-flex;align-items:center;gap:7px;font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#4F8A2E}
+.dotlive i{width:6px;height:6px;border-radius:50%;background:#5FA83A;animation:pulse 1.8s ease-in-out infinite}
+.wave{display:flex;align-items:flex-end;gap:4px;height:44px;margin:22px 0 6px;position:relative}
+.wave i{flex:1;background:linear-gradient(180deg,#6D9BFF,#8B76F5);border-radius:3px;opacity:.9;transition:height .5s cubic-bezier(.2,.7,.2,1)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px;position:relative}
+.legend span{font-size:.72rem;color:var(--text-3);display:inline-flex;align-items:center;gap:6px}
+.legend b{width:8px;height:8px;border-radius:3px;display:inline-block}
+.lc-foot{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px;position:relative}
+.lc-foot div{border-top:1px solid var(--stroke);padding-top:12px}
+.lc-foot b{display:block;font-size:1.28rem;font-weight:700;letter-spacing:-.03em}
+.lc-foot small{font-size:.72rem;color:var(--text-3)}
+
+/* ---- bento ---- */
+.bento{display:grid;gap:14px;margin-top:40px;position:relative;z-index:2}
+.tile{
+  position:relative;background:rgba(255,255,255,.88);border:1px solid var(--stroke);border-radius:var(--r);
+  padding:22px;overflow:hidden;box-shadow:var(--sh-soft);
+  transition:transform .3s cubic-bezier(.2,.7,.2,1),border-color .3s,box-shadow .3s;
+}
+.tile:hover{transform:translateY(-4px);border-color:var(--stroke-2);box-shadow:var(--sh)}
+.tile .k{font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--text-3);font-weight:600}
+.tile .big{font-size:clamp(2rem,6vw,3.3rem);font-weight:700;letter-spacing:-.05em;line-height:1;margin-top:14px;display:block}
+.tile .big.g1{background:linear-gradient(100deg,#8B76F5,#5FD3E4);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.tile .big.g2{background:linear-gradient(100deg,#F2705A,#A9C93F);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.tile p{color:var(--text-2);font-size:.9rem;margin-top:12px}
+.tile em{font-style:normal;color:var(--text);font-weight:500}
+.rings{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.rings span{font-size:.72rem;color:var(--text-2);border:1px solid var(--stroke);border-radius:999px;padding:5px 11px;background:rgba(255,255,255,.75)}
+
+/* ============ marquee ============ */
+.marquee{position:relative;z-index:2;border-top:1px solid var(--stroke);border-bottom:1px solid var(--stroke);padding:20px 0;background:rgba(255,255,255,.62);overflow:hidden}
+.track{display:flex;width:max-content;animation:scrollx 34s linear infinite}
+.marquee:hover .track{animation-play-state:paused}
+.track ul{display:flex;align-items:center;gap:26px;padding:0 13px}
+.track li{white-space:nowrap;font-size:clamp(1rem,2.2vw,1.5rem);font-weight:600;letter-spacing:-.03em;color:var(--text)}
+.track li.serif{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--text-2)}
+.track li.sep{color:var(--violet);font-size:.7rem}
+
+/* ============ work — one card ============ */
+.workgrid{margin-top:28px;position:relative;z-index:2}
+.workcol{min-width:0}
+.workcard{position:relative}
+.workcard .inner{border:1px solid var(--stroke-2);border-radius:var(--r-lg);overflow:hidden;background:var(--surface);box-shadow:var(--sh-soft)}
+.workrow{display:grid;grid-template-columns:40px 1fr;column-gap:12px;padding:15px 20px 14px;border-bottom:1px solid var(--stroke);transition:background .25s}
+.workrow:last-child{border-bottom:0}
+.workrow:hover{background:var(--surface-2)}
+.workrow .num{grid-row:1/3;font-family:var(--serif);font-size:1.02rem;color:var(--lilac);line-height:1.45}
+.workrow .rhead{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;min-width:0}
+.workrow h3{font-size:.96rem;letter-spacing:-.015em;font-weight:650}
+.workrow .tag{font-size:.6rem;letter-spacing:.13em;text-transform:uppercase;font-weight:600;color:var(--text-3);white-space:nowrap}
+.workrow p{grid-column:2;color:var(--text-2);font-size:.85rem;line-height:1.5;margin-top:3px}
+
+/* ============ chips ============ */
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{font-size:.73rem;padding:5px 11px;border-radius:999px;background:rgba(122,99,240,.07);border:1px solid rgba(122,99,240,.16);color:#4C3E8F;white-space:nowrap}
+
+/* ============ steps ============ */
+.rail-label{margin-top:36px;font-size:.68rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--text-3)}
+.rail{margin-top:14px;display:grid;gap:14px}
+.step{position:relative;padding:18px 20px 18px 26px;border:1px solid var(--stroke);border-radius:var(--r);background:rgba(255,255,255,.82);box-shadow:var(--sh-soft)}
+.step::before{content:"";position:absolute;left:0;top:20px;bottom:20px;width:3px;border-radius:3px;background:linear-gradient(180deg,#8B76F5,#5FD3E4)}
+.step .stepn{font-family:var(--serif);font-size:1.1rem;color:#7A63F0}
+.step h3{font-size:1.02rem;letter-spacing:-.02em;margin-top:4px}
+.step p{color:var(--text-2);font-size:.88rem;margin-top:6px}
+
+/* ============ skills ============ */
+.skills{display:grid;gap:14px}
+.skcard{background:rgba(255,255,255,.88);border:1px solid var(--stroke);border-radius:var(--r);padding:24px;box-shadow:var(--sh-soft);transition:transform .3s,border-color .3s,box-shadow .3s}
+.skcard:hover{transform:translateY(-3px);border-color:var(--stroke-2);box-shadow:var(--sh)}
+.skcard .hd{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.skcard .hd svg{width:20px;height:20px;color:#7A63F0;flex:0 0 auto}
+.skcard h3{font-size:1.02rem;letter-spacing:-.02em}
+.skcard .count{margin-left:auto;font-size:.7rem;color:var(--text-3);border:1px solid var(--stroke);border-radius:999px;padding:3px 10px}
+
+/* ============ certifications ============ */
+.acc{margin-top:32px;border-top:1px solid var(--stroke)}
+.acc details{border-bottom:1px solid var(--stroke)}
+.acc summary{display:flex;align-items:center;gap:14px;padding:18px 4px;cursor:pointer;list-style:none;font-size:clamp(.98rem,1.6vw,1.12rem);font-weight:600;letter-spacing:-.02em;transition:color .2s}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary:hover{color:#7A63F0}
+.acc summary .idx{font-family:var(--serif);color:var(--lilac);font-size:1rem;min-width:30px}
+.acc summary .plus{margin-left:auto;width:26px;height:26px;border:1px solid var(--stroke);border-radius:50%;display:grid;place-items:center;color:var(--text-3);flex:0 0 auto;transition:.3s;background:#fff}
+.acc details[open] summary .plus{transform:rotate(45deg);border-color:#7A63F0;color:#7A63F0}
+.acc .body{padding:0 4px 20px 44px;color:var(--text-2);font-size:.9rem}
+
+/* ============ contact ============ */
+.contact-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+
+/* ============ footer ============ */
+footer{border-top:1px solid var(--stroke);padding:26px 0;position:relative;z-index:2}
+.foot{display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;font-size:.83rem;color:var(--text-3)}
+.top{display:inline-flex;align-items:center;gap:8px;color:var(--text-2);font-weight:600;padding:10px 0;min-height:44px}
+.top:hover{color:#7A63F0}
+.top svg{width:15px;height:15px}
+
+/* ============ responsive ============ */
+@media (min-width:560px){
+  .bento{grid-template-columns:1fr 1fr}
+  .tile.wide{grid-column:span 2}
+  .skills{grid-template-columns:1fr 1fr}
+  .rail{grid-template-columns:1fr 1fr}
+}
+@media (min-width:768px){
+  :root{--pad:88px}
+  .hero{padding-top:76px}
+}
+@media (min-width:1024px){
+  :root{--pad:104px}
+  .wrap{padding:0 30px}
+  .nav-links{display:flex}
+  .nav-cta{display:inline-flex}
+  .burger{display:none}
+  .mobile-menu{display:none !important}
+  .hero-grid{display:grid;grid-template-columns:1.34fr .94fr;gap:56px;align-items:center}
+  .livecard{margin-top:0}
+  .bento{grid-template-columns:repeat(4,1fr);gap:16px}
+  .tile.wide{grid-column:span 2}
+  .skills{grid-template-columns:repeat(3,1fr)}
+  .workgrid{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
+  .rail-label{margin-top:0}
+  .rail{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){
+  .rv{opacity:1;transform:none;transition:none}
+  .hero-anim>*{animation:none}
+  .blob{animation:none}
+  .track{animation:none}
+  .eyebrow::before,.dotlive i{animation:none}
+  .tile:hover,.workrow:hover,.skcard:hover,.btn:hover{transform:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top" aria-label="Jankeesh Kaur, back to top">
+      <span class="mark" aria-hidden="true">JK</span>
+      <span>Jankeesh <span class="surname">Kaur</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Section navigation">
+      <a class="nl" href="#about">About</a>
+      <a class="nl" href="#work">Work</a>
+      <a class="nl" href="#skills">Skills</a>
+      <a class="nl" href="#certs">Certifications</a>
+      <a class="nl" href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-glow nav-cta" href="https://www.linkedin.com/in/jankeesh/" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9.5 9h3.8v1.7h.06c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.77 2.5 4.77 5.76V21h-4v-5.7c0-1.36-.03-3.11-1.94-3.11-1.94 0-2.24 1.48-2.24 3.01V21h-4z"/></svg>
+      Connect
+    </a>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open navigation menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu" id="menu">
+    <div class="wrap">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#certs">Certifications</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-glow" href="https://www.linkedin.com/in/jankeesh/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top" aria-labelledby="heroTitle">
+  <div class="aurora" aria-hidden="true">
+    <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><span class="blob b4"></span>
+    <span class="meshlines"></span>
+  </div>
+  <div class="wrap hero-in">
+    <div class="hero-grid">
+      <div class="hero-anim">
+        <span class="eyebrow" style="animation-delay:.05s">Senior Solutions Consultant &middot; United Kingdom</span>
+        <h1 id="heroTitle" style="animation-delay:.14s">Architecting seamless <span class="serif">customer</span> experiences on <span class="grad">Genesys Cloud</span></h1>
+        <p class="sub" style="animation-delay:.22s">I architect, build and optimise Genesys Cloud CX platform solutions that turn business requirements into reliable, scalable customer journeys.</p>
+        <div class="hero-actions" style="animation-delay:.3s">
+          <a class="btn btn-glow" href="#contact">
+            Let's talk
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+          </a>
+          <a class="btn btn-glass" href="#work">See the work</a>
+        </div>
+        <div class="meta" style="animation-delay:.38s">
+          <span>19+ years in CX platforms</span>
+          <span>10 certifications</span>
+          <span>Cloud &amp; on-premise</span>
+        </div>
+      </div>
+
+      <aside class="livecard" style="animation-delay:.45s" aria-label="Delivery snapshot">
+        <div class="lc-head">
+          <h3>Delivery Snapshot</h3>
+          <span class="dotlive"><i></i>Live</span>
+        </div>
+        <div class="wave" aria-hidden="true">
+          <i style="height:34%"></i><i style="height:58%"></i><i style="height:42%"></i><i style="height:78%"></i><i style="height:52%"></i>
+          <i style="height:92%"></i><i style="height:64%"></i><i style="height:44%"></i><i style="height:71%"></i><i style="height:36%"></i>
+          <i style="height:60%"></i><i style="height:86%"></i><i style="height:50%"></i>
+        </div>
+        <div class="legend">
+          <span><b style="background:var(--cyan)"></b>Voice &amp; digital flows</span>
+          <span><b style="background:var(--violet)"></b>Automation &amp; APIs</span>
+        </div>
+        <div class="lc-foot">
+          <div><b>19+</b><small>Years of experience</small></div>
+          <div><b>10</b><small>Certifications</small></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MARQUEE ================= -->
+<div class="marquee" aria-hidden="true">
+  <div class="track" id="track"></div>
+</div>
+
+<!-- ================= ABOUT / BENTO ================= -->
+<section id="about" aria-labelledby="aboutTitle">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow">Introduction</span>
+      <h2 id="aboutTitle">A delivery partner for <span class="serif">ambitious</span> contact centres</h2>
+      <p class="lede oneline">I turn complex contact-centre requirements into reliable Genesys Cloud deployment &mdash; from the first workshop right through to go-live and beyond.</p>
+    </div>
+
+    <div class="bento">
+      <article class="tile wide rv">
+        <span class="k">What I do</span>
+        <p style="margin-top:14px">At Sabio Group in the UK, I work directly with clients end to end: converting business needs into well-planned deliverables, leading multiple workstreams, training user, admin, supervisor and reporting teams, and automating complex requirements with APIs, Terraform and CI/CD.</p>
+      </article>
+
+      <article class="tile rv">
+        <span class="k">Experience</span>
+        <span class="big g1">19+</span>
+        <p>Years leading requirement gathering, design, implementation and troubleshooting.</p>
+      </article>
+
+      <article class="tile rv">
+        <span class="k">Platforms</span>
+        <span class="big g2">02</span>
+        <p>Deep hands-on cover across Genesys Cloud and Genesys Engage.</p>
+      </article>
+
+      <article class="tile rv">
+        <span class="k">Sectors delivered</span>
+        <p style="margin-top:14px">Telecom &middot; Aviation &middot; Banking &middot; Retail &middot; Utilities &middot; Insurance &middot; Charity &middot; Healthcare.</p>
+        <div class="rings"><span>Cloud</span><span>On-premise</span><span>Hybrid</span></div>
+      </article>
+
+      <article class="tile rv">
+        <span class="k">Education</span>
+        <p style="margin-top:14px"><em>B.E. Computer Science</em><br>Thapar University &middot; 2003&ndash;2007</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WORK ================= -->
+<section id="work" aria-labelledby="workTitle">
+  <div class="aurora" aria-hidden="true" style="opacity:.5">
+    <span class="blob b2" style="top:-10%;left:auto;right:-6%;bottom:auto"></span>
+    <span class="blob b3" style="top:auto;bottom:-14%;left:8%;right:auto"></span>
+  </div>
+  <div class="wrap sec">
+    <div class="sec-head rv">
+      <span class="eyebrow">Selected work</span>
+      <h2 id="workTitle">Project &amp; <span class="serif">delivery</span> highlights</h2>
+      <p class="lede oneline">Enterprise rollouts, omnichannel builds, infrastructure automation and voice modernisation &mdash; delivered end to end.</p>
+    </div>
+
+    <div class="workgrid">
+      <div class="workcard rv">
+        <div class="inner">
+          <article class="workrow">
+            <span class="num">01</span>
+            <div class="rhead"><h3>Enterprise Genesys Cloud Rollout</h3><span class="tag">Utility &amp; Energy</span></div>
+            <p>Designed the platform foundation and supported a full enterprise go-live.</p>
+          </article>
+          <article class="workrow">
+            <span class="num">02</span>
+            <div class="rhead"><h3>Multi-Sector Genesys Cloud Delivery</h3><span class="tag">Retail &middot; Energy &middot; Utilities &middot; Insurance &middot; Charity</span></div>
+            <p>Led base configuration and delivered Architect voice, digital, outbound and quality.</p>
+          </article>
+          <article class="workrow">
+            <span class="num">03</span>
+            <div class="rhead"><h3>Voice Bot &amp; Intelligent Automation</h3><span class="tag">Automation</span></div>
+            <p>Integrated voice bots with Architect flows, data actions and workflows.</p>
+          </article>
+          <article class="workrow">
+            <span class="num">04</span>
+            <div class="rhead"><h3>Infrastructure-as-Code &amp; DevOps</h3><span class="tag">Platform Engineering</span></div>
+            <p>Terraform-managed Genesys objects, API automation and CI/CD migration.</p>
+          </article>
+          <article class="workrow">
+            <span class="num">05</span>
+            <div class="rhead"><h3>Business Rules &amp; Chat Routing</h3><span class="tag">Healthcare Services</span></div>
+            <p>GRS business logic for Composer chat routing, verified via Postman and Splunk.</p>
+          </article>
+          <article class="workrow">
+            <span class="num">06</span>
+            <div class="rhead"><h3>Omnichannel, Reporting &amp; Speech</h3><span class="tag">Aviation &middot; Banking &middot; Telecom</span></div>
+            <p>Custom GCXI, GI2 and Pulse reporting, WhatsApp and Single Sign On.</p>
+          </article>
+          <article class="workrow">
+            <span class="num">07</span>
+            <div class="rhead"><h3>Enterprise SIP &amp; Voice Modernisation</h3><span class="tag">Consumer Technology</span></div>
+            <p>Migrated legacy CTI to SIP, implemented GVP and integrated Nuance R10 speech.</p>
+          </article>
+          <article class="workrow">
+            <span class="num">08</span>
+            <div class="rhead"><h3>Outbound &amp; High-Availability Cores</h3><span class="tag">Telecom &middot; Insurance</span></div>
+            <p>Outbound campaigns, agent scripting and HA deployments of Framework and Info Mart.</p>
+          </article>
+        </div>
+      </div>
+      <div class="workcol">
+        <p class="rail-label rv">Delivery approach</p>
+        <div class="rail">
+          <article class="step rv">
+            <span class="stepn">Step 01</span>
+            <h3>Discover &amp; design</h3>
+            <p>Requirement gathering, functional specs and low-level design turned into a clear, agreed delivery plan.</p>
+          </article>
+          <article class="step rv">
+            <span class="stepn">Step 02</span>
+            <h3>Build &amp; automate</h3>
+            <p>Architect flows, base configuration, scripting, APIs and Terraform &mdash; automated wherever it pays off.</p>
+          </article>
+          <article class="step rv">
+            <span class="stepn">Step 03</span>
+            <h3>Train &amp; hand over</h3>
+            <p>Enablement for user, admin, supervisor and reporting teams so the platform is owned, not just deployed.</p>
+          </article>
+          <article class="step rv">
+            <span class="stepn">Step 04</span>
+            <h3>Launch &amp; optimise</h3>
+            <p>Go-live support, root-cause analysis and continuous tuning of routing, reporting and quality.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" aria-labelledby="skillsTitle">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow">Capabilities</span>
+      <h2 id="skillsTitle">Technical <span class="serif">expertise</span></h2>
+      <p class="lede oneline">Two decades of hands-on platform depth across contact-centre voice, digital, routing, reporting and automation.</p>
+    </div>
+
+    <div class="skills">
+      <article class="skcard rv">
+        <div class="hd">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 18.5a4.5 4.5 0 0 0 .3-9A6 6 0 0 0 6.2 10.4A4 4 0 0 0 7 18.4z"/></svg>
+          <h3>Genesys Cloud CX</h3><span class="count">7</span>
+        </div>
+        <ul class="chips"><li class="chip">Genesys Cloud</li><li class="chip">Genesys Cloud API</li><li class="chip">Architect Flows</li><li class="chip">Outbound</li><li class="chip">Scripting</li><li class="chip">Speech &amp; Text Analytics</li><li class="chip">Quality Management</li></ul>
+      </article>
+
+      <article class="skcard rv">
+        <div class="hd">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="6" rx="2"/><rect x="3" y="14" width="18" height="6" rx="2"/><path d="M7 7h.01M7 17h.01"/></svg>
+          <h3>Genesys Engage</h3><span class="count">8</span>
+        </div>
+        <ul class="chips"><li class="chip">Genesys Framework</li><li class="chip">Voice Platform (GVP)</li><li class="chip">Routing (URS, ORS, IRD)</li><li class="chip">Composer (VXML, SCXML)</li><li class="chip">Rules System (GRDT, GRE, GRAT)</li><li class="chip">eServices</li><li class="chip">Workspace Desktop Edition</li><li class="chip">Outbound</li></ul>
+      </article>
+
+      <article class="skcard rv">
+        <div class="hd">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19V5M4 19h16"/><path d="M8 15v-3M12 15V8M16 15v-5"/></svg>
+          <h3>Reporting &amp; Analytics</h3><span class="count">11</span>
+        </div>
+        <ul class="chips"><li class="chip">GCXI</li><li class="chip">GI2</li><li class="chip">Pulse</li><li class="chip">CCPulse+</li><li class="chip">GIM</li><li class="chip">ICON</li><li class="chip">Stat Server</li><li class="chip">CC Analyzer</li><li class="chip">CCON</li><li class="chip">Crystal Reports</li><li class="chip">Hyperion</li></ul>
+      </article>
+
+      <article class="skcard rv">
+        <div class="hd">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 7-5 5 5 5M16 7l5 5-5 5"/></svg>
+          <h3>Development &amp; DevOps</h3><span class="count">7</span>
+        </div>
+        <ul class="chips"><li class="chip">Node.js</li><li class="chip">JavaScript</li><li class="chip">Terraform</li><li class="chip">Genesys CLI</li><li class="chip">Postman</li><li class="chip">GitHub CI/CD</li><li class="chip">Splunk</li></ul>
+      </article>
+
+      <article class="skcard rv">
+        <div class="hd">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4a5 5 0 0 0 0 10h2l7 7"/><path d="M13 4a5 5 0 0 1 0 10"/><circle cx="13.5" cy="17.5" r="2.5"/></svg>
+          <h3>Data &amp; Speech</h3><span class="count">3</span>
+        </div>
+        <ul class="chips"><li class="chip">Oracle</li><li class="chip">Microsoft SQL Server</li><li class="chip">Nuance R10 (ASR and TTS)</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CERTIFICATIONS ================= -->
+<section id="certs" aria-labelledby="certsTitle">
+  <div class="aurora" aria-hidden="true" style="opacity:.35">
+    <span class="blob b1" style="top:-20%;right:-10%"></span>
+  </div>
+  <div class="wrap sec">
+    <div class="sec-head rv">
+      <span class="eyebrow">Accreditation</span>
+      <h2 id="certsTitle">Ten <span class="serif">certifications</span> across Genesys and AWS</h2>
+      <p class="lede">Spanning cloud fundamentals, platform architecture, workforce engagement and AI. Select any line to see the detail.</p>
+    </div>
+
+    <div class="acc rv">
+      <details>
+        <summary><span class="idx">01</span><span>AWS Certified Cloud Practitioner</span><span class="plus">+</span></summary>
+        <div class="body">Amazon Web Services &mdash; cloud fundamentals across compute, networking, security and cost.</div>
+      </details>
+      <details>
+        <summary><span class="idx">02</span><span>Genesys Cloud CX: Professional Certification</span><span class="plus">+</span></summary>
+        <div class="body">Core platform administration, configuration and operational best practice.</div>
+      </details>
+      <details>
+        <summary><span class="idx">03</span><span>Genesys Cloud CX: Developer Certification</span><span class="plus">+</span></summary>
+        <div class="body">APIs, data actions, integrations and custom application development.</div>
+      </details>
+      <details>
+        <summary><span class="idx">04</span><span>Genesys Cloud CX: Architect Certification</span><span class="plus">+</span></summary>
+        <div class="body">Designing voice, digital and bot flows, routing and platform architecture.</div>
+      </details>
+      <details>
+        <summary><span class="idx">05</span><span>Genesys Cloud CX: Workforce Management Certification</span><span class="plus">+</span></summary>
+        <div class="body">Forecasting, scheduling, adherence and workforce engagement management.</div>
+      </details>
+      <details>
+        <summary><span class="idx">06</span><span>Genesys Cloud CX: Outbound Certification</span><span class="plus">+</span></summary>
+        <div class="body">Campaign design, dialling modes, compliance and list management.</div>
+      </details>
+      <details>
+        <summary><span class="idx">07</span><span>Genesys Cloud CX: Scripting Certification</span><span class="plus">+</span></summary>
+        <div class="body">Agent scripts, screen pops and integrated data-driven guidance.</div>
+      </details>
+      <details>
+        <summary><span class="idx">08</span><span>Genesys Cloud CX: Quality Management Certification</span><span class="plus">+</span></summary>
+        <div class="body">Evaluation, scoring, calibration and quality workflows.</div>
+      </details>
+      <details>
+        <summary><span class="idx">09</span><span>Genesys Cloud CX: AI &mdash; GPE &amp; GPR</span><span class="plus">+</span></summary>
+        <div class="body">Genesys Predictive Engagement and Predictive Routing.</div>
+      </details>
+      <details>
+        <summary><span class="idx">10</span><span>Genesys Cloud CX: AI &mdash; Digital Bots &amp; Knowledge</span><span class="plus">+</span></summary>
+        <div class="body">Digital bot flows and knowledge workbench for self-service.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" aria-labelledby="contactTitle">
+  <div class="aurora" aria-hidden="true" style="opacity:.6">
+    <span class="blob b1" style="top:-24%;left:-6%;right:auto"></span>
+    <span class="blob b2" style="bottom:-28%;right:-8%;left:auto"></span>
+  </div>
+  <div class="wrap sec">
+    <div class="contact-grid">
+      <div class="contact rv">
+        <span class="eyebrow">Get in touch</span>
+        <h2 id="contactTitle">Let's build a contact centre that <span class="serif">works</span></h2>
+        <p class="lede">Available to discuss Genesys Cloud consulting, architecture and delivery.</p>
+        <div class="contact-actions">
+          <a class="btn btn-glow" href="https://www.linkedin.com/in/jankeesh/" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9.5 9h3.8v1.7h.06c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.77 2.5 4.77 5.76V21h-4v-5.7c0-1.36-.03-3.11-1.94-3.11-1.94 0-2.24 1.48-2.24 3.01V21h-4z"/></svg>
+            Message on LinkedIn
+          </a>
+          <a class="btn btn-glass" href="#top">Back to top</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap foot">
+    <p>&copy; 2026 Jankeesh Kaur &middot; Senior Solutions Consultant</p>
+    <a class="top" href="#top">
+      Back to top
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </a>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---------- build marquee tracks ---------- */
+  var words = ["Genesys Cloud","Architect Flows","Genesys Engage","APIs &amp; Automation","Terraform","Omnichannel Routing","Speech Analytics","Reporting &amp; Insights","Quality Management","SIP &amp; Voice"];
+  var track = document.getElementById("track");
+  function buildTrack(){
+    var seq = "";
+    words.forEach(function(w,i){
+      seq += '<li' + (i % 2 ? ' class="serif"' : '') + '>' + w + '</li><li class="sep">&#9670;</li>';
+    });
+    /* duplicate so the -50% translate loops seamlessly */
+    track.innerHTML = "<ul>" + seq + "</ul><ul aria-hidden='true'>" + seq + "</ul>";
+  }
+  buildTrack();
+
+  /* ---------- sticky nav ---------- */
+  var nav = document.getElementById("nav");
+  function onScroll(){
+    if (window.pageYOffset > 10) nav.classList.add("solid"); else nav.classList.remove("solid");
+  }
+  onScroll();
+  window.addEventListener("scroll", onScroll, {passive:true});
+
+  /* ---------- mobile menu ---------- */
+  var burger = document.getElementById("burger");
+  var menu = document.getElementById("menu");
+  function closeMenu(){
+    menu.classList.remove("open");
+    burger.setAttribute("aria-expanded","false");
+    burger.setAttribute("aria-label","Open navigation menu");
+  }
+  burger.addEventListener("click", function(){
+    if (burger.getAttribute("aria-expanded") === "true"){ closeMenu(); }
+    else {
+      menu.classList.add("open");
+      burger.setAttribute("aria-expanded","true");
+      burger.setAttribute("aria-label","Close navigation menu");
+    }
+  });
+  Array.prototype.forEach.call(menu.querySelectorAll("a"), function(a){ a.addEventListener("click", closeMenu); });
+  document.addEventListener("keydown", function(e){ if (e.key === "Escape") closeMenu(); });
+  window.addEventListener("resize", function(){ if (window.innerWidth >= 1024) closeMenu(); });
+
+  /* ---------- reveal on scroll ---------- */
+  var revealables = document.querySelectorAll(".rv");
+  if (reduce || !("IntersectionObserver" in window)) {
+    Array.prototype.forEach.call(revealables, function(el){ el.classList.add("in"); });
+  } else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (en.isIntersecting){ en.target.classList.add("in"); io.unobserve(en.target); }
+      });
+    }, {rootMargin:"0px 0px -6% 0px", threshold:0.08});
+    Array.prototype.forEach.call(revealables, function(el){ io.observe(el); });
+  }
+
+  /* ---------- hero waveform: gentle idle motion ---------- */
+  var bars = document.querySelectorAll(".wave i");
+  if (!reduce && bars.length) {
+    var t = 0;
+    setInterval(function(){
+      t += 0.6;
+      Array.prototype.forEach.call(bars, function(b, i){
+        var v = 32 + (Math.sin(t * 0.7 + i * 0.65) * 0.5 + 0.5) * 58;
+        b.style.height = v.toFixed(1) + "%";
+      });
+    }, 900);
+  }
+
+  /* ---------- active section ---------- */
+  var links = Array.prototype.slice.call(document.querySelectorAll(".nav-links a.nl"));
+  var sections = links.map(function(a){ return document.querySelector(a.getAttribute("href")); }).filter(Boolean);
+  function setActive(){
+    var pos = window.pageYOffset + 160, current = sections[0];
+    sections.forEach(function(s){ if (s.offsetTop <= pos) current = s; });
+    links.forEach(function(a){
+      if (current && a.getAttribute("href") === "#" + current.id) a.classList.add("active");
+      else a.classList.remove("active");
+    });
+  }
+  setActive();
+  window.addEventListener("scroll", setActive, {passive:true});
+  window.addEventListener("resize", setActive);
+})();
+</script>
+</body>
+</html>
